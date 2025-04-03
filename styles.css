@@ -1,0 +1,93 @@
+/* Общий фон для всего сайта */
+body {
+    background-color: #f4f4f4;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Контейнер для формы с отступами и тенями */
+.container {
+    max-width: 400px;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Заголовок формы */
+h2 {
+    color: #333;
+}
+
+/* Кнопка login */
+.btn-block {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: white;
+}
+
+.btn-block:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+/* Для сообщений об ошибке */
+.alert {
+    font-size: 14px;
+    display: none;
+}
+
+/* Плавное изменение для элементов */
+input, button {
+    transition: all 0.3s ease;
+}
+
+input:focus, button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#slot-machine {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.slot {
+    font-size: 3em;
+    margin: 0 20px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+input[type="number"] {
+    width: 50px;
+    padding: 5px;
+    text-align: center;
+}

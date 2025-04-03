@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Слот Машина</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="slot-machine">
+        <div class="slot" id="slot1">🍒</div>
+        <div class="slot" id="slot2">🍋</div>
+        <div class="slot" id="slot3">🍊</div>
+    </div>
+    <button onclick="spin()">Крутить!</button>
+    <p id="bet-message">Ставка: <input type="number" id="bet" value="1" min="1"> монет</p>
+    <p id="result">Результат: </p>
+
+    <script src="app.js"></script>
+</body>
+</html>
